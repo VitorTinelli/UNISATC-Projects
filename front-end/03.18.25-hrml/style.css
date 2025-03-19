@@ -1,0 +1,29 @@
+body{
+    font: 16px sans-serif;
+}
+
+h1{
+    color: blueviolet;
+    background-color: yellowgreen;
+    font-size: 72px;
+    margin: 32px;
+    padding: 21px;
+}
+
+a{
+    font-weight: bold;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+a.menu{
+    color: yellowgreen;
+}
+
+a.menu:hover{
+    color: blueviolet;
+}
