@@ -4,29 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Html Basics</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <form action="https://httpbin.org/post" method="post">
             <div>
-                <label for="Nome">Seu nome:</label><br>
-                <input required name="Nome" type="Nome" placeholder="Nome"> <br><br>
+                <label for="Nome">Seu nome:</label>
+                <input required name="Nome" type="Nome" placeholder="Nome" class="camposFormulario"> 
             </div>
             <div>
-                <label for="Email">Seu email:</label><br>
-                <input required name="email"type="Email" placeholder="Email"> <br><br>
+                <label for="Email">Seu email:</label>
+                <input required name="email"type="Email" placeholder="Email" class="camposFormulario"> 
             </div>
             <div>
-                <label for="Telefone">Seu telefone:</label><br>
-                <input name="Telefone" type="Telefone" placeholder="Telefone"> <br><br>
+                <label for="Telefone">Seu telefone:</label>
+                <input name="Telefone" type="Telefone" placeholder="Telefone" class="camposFormulario">
             </div>
             <div>
-                <label for="Feedback">Feedback: </label><br>
-                <textarea name="Feedback" id="Feedback" cols="30" rows="10" placeholder="Deixe seu feedback"></textarea>
-                <br><br>
+                <label for="Feedback">Feedback: </label>
+                <textarea name="Feedback" id="Feedback" cols="30" rows="10" placeholder="Deixe seu feedback" class="camposFormulario"></textarea>
             </div>
             <div>
-                <label for="Selecione seu estado">Estado: </label><br>
-                <select multiple name="Estado" id="estado">
+                <label for="Selecione seu estado">Estado: </label>
+                <select name="Estado" id="estado" class="camposFormulario">
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
                     <option value="AP">Amapá</option>
@@ -55,9 +55,7 @@
                     <option value="SE">Sergipe</option>
                     <option value="TO">Tocantins</option>
                 </select>
-                <br><br>
             </div>
-
             <button>Enviar cadastro</button>
         </form>
     </body>
