@@ -1,4 +1,5 @@
 #Dupla: Vitor Muneretto Tinelli e Lucas de Bitencourt Frasson
+
 Feito utilizando a extensão Visual Studio Live Share
 
 # AngularChat
