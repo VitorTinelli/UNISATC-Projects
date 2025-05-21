@@ -1,3 +1,6 @@
+#Dupla: Vitor Muneretto Tinelli e Lucas de Bitencourt Frasson
+Feito utilizando a extensão Visual Studio Live Share
+
 # AngularChat
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
