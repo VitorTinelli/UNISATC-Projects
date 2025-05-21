@@ -1,4 +1,4 @@
-#Dupla: Vitor Muneretto Tinelli e Lucas de Bitencourt Frasson
+# Dupla: Vitor Muneretto Tinelli e Lucas de Bitencourt Frasson
 
 Feito utilizando a extensão Visual Studio Live Share
 
