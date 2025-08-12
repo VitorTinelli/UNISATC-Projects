@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="853c8a14-f60a-4d72-9aca-4ff95d824542" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/03.25.25-firstProject/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/03.25.25-firstProject/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/04.22.25-avaliacao/loginpage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/06.17.25-avaliacao/ex5.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/app/app.config.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/app/mensagem/mensagem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/app/mensagem/mensagem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/app/mensagem/mensagem.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/app/mensagem/mensagem.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/main.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/angularChat/tsconfig.spec.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="31A7AXPqrfOWPQ5nQ5iH7kyi44f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "backend",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="853c8a14-f60a-4d72-9aca-4ff95d824542" name="Changes" comment="" />
+      <created>1754954882560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754954882560</updated>
+      <workItem from="1754954883068" duration="138000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

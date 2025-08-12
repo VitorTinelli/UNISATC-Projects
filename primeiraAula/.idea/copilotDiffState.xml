@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/org/example/Ex1.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/example/Ex1.java" />
+              <option name="updatedContent" value="package org.example;&#10;&#10;/**&#10; * Exercício 1: Ambiente de Desenvolvimento&#10; * Programa que imprime uma mensagem de boas-vindas ao sistema&#10; */&#10;public class Ex1 {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Bem-vindo ao Sistema de Geração de Jogadores!&quot;);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/example/Ex2.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/example/Ex2.java" />
+              <option name="updatedContent" value="package org.example;&#10;&#10;/**&#10; * Exercício 2: Estrutura de um Programa Java&#10; * Programa que imprime dados de um funcionário&#10; */&#10;public class Ex2 {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Nome: Mariana Silva&quot;);&#10;        System.out.println(&quot;Cargo: Analista de Sistemas&quot;);&#10;        System.out.println(&quot;Salário: R$ 4500.00&quot;);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/example/Ex3.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/example/Ex3.java" />
+              <option name="updatedContent" value="package org.example;&#10;&#10;/**&#10; * Exercício 3: Tipos Primitivos e Variáveis&#10; * Programa que armazena e exibe dados de um produto&#10; */&#10;public class Ex3 {&#10;    public static void main(String[] args) {&#10;        // Declaração e inicialização das variáveis&#10;        String nome = &quot;Teclado&quot;;&#10;        int codigo = 12345;&#10;        double preco = 99.90;&#10;        boolean promocao = true;&#10;        &#10;        // Impressão formatada das informações&#10;        System.out.println(&quot;Produto: &quot; + nome);&#10;        System.out.println(&quot;Código: &quot; + codigo);&#10;        System.out.printf(&quot;Preço: R$ %.2f%n&quot;, preco);&#10;        System.out.println(&quot;Promoção: &quot; + promocao);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/example/Ex4.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/example/Ex4.java" />
+              <option name="updatedContent" value="package org.example;&#10;&#10;import java.util.Scanner;&#10;&#10;/**&#10; * Exercício 4: Operadores&#10; * Programa que calcula desconto de 10% para compras acima de R$ 100&#10; */&#10;public class Ex4 {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        &#10;        System.out.print(&quot;Digite o valor total da compra: R$ &quot;);&#10;        double valorCompra = scanner.nextDouble();&#10;        &#10;        double valorFinal;&#10;        &#10;        if (valorCompra &gt; 100) {&#10;            valorFinal = valorCompra * 0.9; // Aplica desconto de 10%&#10;            System.out.printf(&quot;Valor final com desconto: R$ %.2f%n&quot;, valorFinal);&#10;        } else {&#10;            valorFinal = valorCompra;&#10;            System.out.printf(&quot;Valor final sem desconto: R$ %.2f%n&quot;, valorFinal);&#10;        }&#10;        &#10;        scanner.close();&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/example/Ex5.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/example/Ex5.java" />
+              <option name="updatedContent" value="package org.example;&#10;&#10;import java.util.Scanner;&#10;&#10;/**&#10; * Exercício 5: Controle de Fluxo&#10; * Programa que categoriza a idade do usuário&#10; */&#10;public class Ex5 {&#10;    public static void main(String[] args) {&#10;        Scanner scanner = new Scanner(System.in);&#10;        &#10;        System.out.print(&quot;Digite sua idade: &quot;);&#10;        int idade = scanner.nextInt();&#10;        &#10;        if (idade &lt; 12) {&#10;            System.out.println(&quot;Categoria: Infantil&quot;);&#10;        } else if (idade &gt;= 12 &amp;&amp; idade &lt;= 17) {&#10;            System.out.println(&quot;Categoria: Adolescente&quot;);&#10;        } else {&#10;            System.out.println(&quot;Categoria: Adulto&quot;);&#10;        }&#10;        &#10;        scanner.close();&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/example/Ex6.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/example/Ex6.java" />
+              <option name="updatedContent" value="package org.example;&#10;&#10;/**&#10; * Exercício 6: Arrays&#10; * Programa que registra notas de 5 alunos e calcula a média&#10; */&#10;public class Ex6 {&#10;    public static void main(String[] args) {&#10;        // Array com as notas dos 5 alunos&#10;        double[] notas = {7.0, 8.0, 6.0, 9.0, 10.0};&#10;        &#10;        // Imprime a lista de notas&#10;        System.out.print(&quot;Notas: &quot;);&#10;        for (int i = 0; i &lt; notas.length; i++) {&#10;            System.out.print((int)notas[i]);&#10;            if (i &lt; notas.length - 1) {&#10;                System.out.print(&quot; &quot;);&#10;            }&#10;        }&#10;        System.out.println(); // Nova linha&#10;        &#10;        // Calcula a média&#10;        double soma = 0;&#10;        for (double nota : notas) {&#10;            soma += nota;&#10;        }&#10;        double media = soma / notas.length;&#10;        &#10;        // Imprime a média&#10;        System.out.printf(&quot;Média: %.1f%n&quot;, media);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
