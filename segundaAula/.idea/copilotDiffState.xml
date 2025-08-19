@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/org/example/Main.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+              <option name="originalContent" value="package org.example;&#10;&#10;import org.example.classes.Jogador;&#10;&#10;import java.util.Random;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        String[] nomes = {&quot;Cesar&quot;, &quot;Paulo&quot;, &quot;Vitor&quot;, &quot;Lucas&quot;, &quot;Pedro&quot;};&#10;        String[] sobrenomes = {&quot;Silva&quot;, &quot;Santos&quot;, &quot;Oliveira&quot;, &quot;Souza&quot;, &quot;Lima&quot;, &quot;Tinelli&quot;};&#10;        String[] posicoes = {&quot;Goleiro&quot;, &quot;Zagueiro&quot;, &quot;Meio-campo&quot;, &quot;Atacante&quot;};&#10;        String[] times = {&quot;Flamengo&quot;, &quot;Palmeiras&quot;, &quot;Santos&quot;, &quot;Vasco&quot;, &quot;Criciúma&quot;};&#10;&#10;        Random random = new Random();&#10;&#10;        for (int i = 0; i &gt; 10; i++){&#10;             Jogador jogador = new Jogador(&#10;                    nomes[random.nextInt(nomes.length)],&#10;                    sobrenomes[random.nextInt(sobrenomes.length)],&#10;                    posicoes[random.nextInt(posicoes.length)],&#10;                    times[random.nextInt(times.length)]&#10;             );&#10;&#10;            System.out.println(jogador);&#10;        }&#10;    }&#10;}" />
+              <option name="updatedContent" value="package org.example;&#10;&#10;import org.example.classes.Jogador;&#10;&#10;import java.util.Random;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        String[] nomes = {&quot;Cesar&quot;, &quot;Paulo&quot;, &quot;Vitor&quot;, &quot;Lucas&quot;, &quot;Pedro&quot;};&#10;        String[] sobrenomes = {&quot;Silva&quot;, &quot;Santos&quot;, &quot;Oliveira&quot;, &quot;Souza&quot;, &quot;Lima&quot;, &quot;Tinelli&quot;};&#10;        String[] posicoes = {&quot;Goleiro&quot;, &quot;Zagueiro&quot;, &quot;Meio-campo&quot;, &quot;Atacante&quot;};&#10;        String[] times = {&quot;Flamengo&quot;, &quot;Palmeiras&quot;, &quot;Santos&quot;, &quot;Vasco&quot;, &quot;Criciúma&quot;};&#10;&#10;        Random random = new Random();&#10;&#10;        for (int i = 0; i &lt; 10; i++){&#10;             Jogador jogador = new Jogador(&#10;                    nomes[random.nextInt(nomes.length)],&#10;                    sobrenomes[random.nextInt(sobrenomes.length)],&#10;                    posicoes[random.nextInt(posicoes.length)],&#10;                    times[random.nextInt(times.length)]&#10;             );&#10;&#10;            System.out.println(jogador);&#10;        }&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
