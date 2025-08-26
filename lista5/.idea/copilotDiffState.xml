@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/Barco.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/Barco.java" />
+              <option name="updatedContent" value="package vitor.tinelli.barcos;&#10;&#10;public class Barco {&#10;    private String nome;&#10;    private int tamanho;&#10;&#10;    public Barco(String nome, int tamanho) {&#10;        this.nome = nome;&#10;        this.tamanho = tamanho;&#10;    }&#10;&#10;    public String getNome() {&#10;        return nome;&#10;    }&#10;&#10;    public void setNome(String nome) {&#10;        this.nome = nome;&#10;    }&#10;&#10;    public int getTamanho() {&#10;        return tamanho;&#10;    }&#10;&#10;    public void setTamanho(int tamanho) {&#10;        this.tamanho = tamanho;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/BasePorto.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/BasePorto.java" />
+              <option name="updatedContent" value="package vitor.tinelli.barcos;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;public class BasePorto {&#10;    protected String nome;&#10;    protected List&lt;Barco&gt; barcosAtracados;&#10;&#10;    public BasePorto(String nome) {&#10;        this.nome = nome;&#10;        this.barcosAtracados = new ArrayList&lt;&gt;();&#10;    }&#10;&#10;    public boolean atracarBarco(Barco barco) {&#10;        barcosAtracados.add(barco);&#10;        return true;&#10;    }&#10;&#10;    public boolean desatracarBarco(Barco barco) {&#10;        return barcosAtracados.remove(barco);&#10;    }&#10;&#10;    public String getNome() {&#10;        return nome;&#10;    }&#10;&#10;    public List&lt;Barco&gt; getBarcosAtracados() {&#10;        return barcosAtracados;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/MainBarcos.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/MainBarcos.java" />
+              <option name="updatedContent" value="package vitor.tinelli.barcos;&#10;&#10;import java.util.ArrayList;&#10;import java.util.List;&#10;&#10;public class MainBarcos {&#10;    public static void main(String[] args) {&#10;        // Criando a lista de 5 barcos com diferentes tamanhos&#10;        List&lt;Barco&gt; barcos = new ArrayList&lt;&gt;();&#10;        barcos.add(new Barco(&quot;Barco 1&quot;, 2));&#10;        barcos.add(new Barco(&quot;Barco 2&quot;, 5));&#10;        barcos.add(new Barco(&quot;Barco 3&quot;, 7));&#10;        barcos.add(new Barco(&quot;Barco 4&quot;, 12));&#10;        barcos.add(new Barco(&quot;Barco 5&quot;, 20));&#10;&#10;        // Criando os dois portos&#10;        PortoPequeno portoPequeno = new PortoPequeno(&quot;Porto Pequeno&quot;);&#10;        PortoGrande portoGrande = new PortoGrande(&quot;Porto Grande&quot;);&#10;&#10;        // Percorrendo a lista de barcos e tentando atracar&#10;        for (Barco barco : barcos) {&#10;            // Tenta atracar primeiro no porto pequeno&#10;            if (portoPequeno.atracarBarco(barco)) {&#10;                System.out.println(barco.getNome() + &quot; atracado no porto pequeno&quot;);&#10;            } else if (portoGrande.atracarBarco(barco)) {&#10;                System.out.println(barco.getNome() + &quot; atracado no porto grande&quot;);&#10;            } else {&#10;                System.out.println(barco.getNome() + &quot; não pôde ser atracado em nenhum porto&quot;);&#10;            }&#10;        }&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/PortoGrande.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/PortoGrande.java" />
+              <option name="updatedContent" value="package vitor.tinelli.barcos;&#10;&#10;public class PortoGrande extends BasePorto {&#10;&#10;    public PortoGrande(String nome) {&#10;        super(nome);&#10;    }&#10;&#10;    @Override&#10;    public boolean atracarBarco(Barco barco) {&#10;        if (barco.getTamanho() &gt;= 10) {&#10;            return super.atracarBarco(barco);&#10;        }&#10;        return false;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/PortoPequeno.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/PortoPequeno.java" />
+              <option name="updatedContent" value="package vitor.tinelli.barcos;&#10;&#10;public class PortoPequeno extends BasePorto {&#10;&#10;    public PortoPequeno(String nome) {&#10;        super(nome);&#10;    }&#10;&#10;    @Override&#10;    public boolean atracarBarco(Barco barco) {&#10;        if (barco.getTamanho() &lt;= 10) {&#10;            return super.atracarBarco(barco);&#10;        }&#10;        return false;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/musicas/MusicCloud.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/vitor/tinelli/musicas/MusicCloud.java" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/musicas/MusicaNaoEncontradaException.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/vitor/tinelli/musicas/MusicaNaoEncontradaException.java" />
+              <option name="originalContent" value="&#10;public class MusicCloud {&#10;    private List&lt;Musica&gt; musicasDisponiveis;&#10;&#10;    public MusicCloud() {&#10;        this.musicasDisponiveis = new ArrayList&lt;&gt;();&#10;        inicializarMusicas();&#10;    }&#10;&#10;    private void inicializarMusicas() {&#10;        musicasDisponiveis.add(new Musica(&quot;Hino do Real Paulista&quot;, &quot;Real Paulista FC&quot;));&#10;        musicasDisponiveis.add(new Musica(&quot;Macarena&quot;, &quot;Los Del Rio&quot;));&#10;        musicasDisponiveis.add(new Musica(&quot;Evidências&quot;, &quot;Chitãozinho &amp; Xororó&quot;));&#10;        musicasDisponiveis.add(new Musica(&quot;Bohemian Rhapsody&quot;, &quot;Queen&quot;));&#10;        musicasDisponiveis.add(new Musica(&quot;Imagine&quot;, &quot;John Lennon&quot;));&#10;        musicasDisponiveis.add(new Musica(&quot;Hotel California&quot;, &quot;Eagles&quot;));&#10;        musicasDisponiveis.add(new Musica(&quot;Stairway to Heaven&quot;, &quot;Led Zeppelin&quot;));&#10;    }&#10;&#10;    public Musica pesquisarMusica(String titulo) throws MusicaNaoEncontradaException {&#10;        for (Musica musica : musicasDisponiveis) {&#10;            if (musica.getTitulo().equalsIgnoreCase(titulo)) {&#10;                return musica;&#10;            }&#10;        }&#10;        throw new MusicaNaoEncontradaException(&quot;A música &quot; + titulo + &quot; não foi encontrada no sistema.&quot;);&#10;    }&#10;&#10;    public List&lt;Musica&gt; getMusicasDisponiveis() {&#10;        return musicasDisponiveis;&#10;    }&#10;}" />
+              <option name="updatedContent" value="        super(mensagem);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
