@@ -35,14 +35,6 @@
             </PendingDiffInfo>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/PortoPequeno.java">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/src/main/java/vitor/tinelli/barcos/PortoPequeno.java" />
-              <option name="updatedContent" value="package vitor.tinelli.barcos;&#10;&#10;public class PortoPequeno extends BasePorto {&#10;&#10;    public PortoPequeno(String nome) {&#10;        super(nome);&#10;    }&#10;&#10;    @Override&#10;    public boolean atracarBarco(Barco barco) {&#10;        if (barco.getTamanho() &lt;= 10) {&#10;            return super.atracarBarco(barco);&#10;        }&#10;        return false;&#10;    }&#10;}" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/vitor/tinelli/musicas/MusicCloud.java">
           <value>
             <PendingDiffInfo>
